@@ -20,8 +20,8 @@ Brief description of what your React application does and its main purpose.
 ## Screenshots
 
 ### Home Page
-![Home Page](screenshots/home-page.png)
 
+![Home Page](screenshots/home-page.png)
 
 ## Features
 
@@ -39,35 +39,30 @@ Make sure you have the following installed:
 ### Steps
 
 1. Clone the repository
+
    ```bash
-   git clone https://github.com/yourusername/your-project-name.git
+   git clone https://github.com/riadosman/yildiz_matbaa.git
    ```
 
 2. Navigate to the project directory
+
    ```bash
-   cd your-project-name
+   cd yildiz_matbaa
    ```
 
 3. Install dependencies
+
    ```bash
    npm install
-   # or
-   yarn install
    ```
 
-4. Create environment file (if needed)
-   ```bash
-   cp .env.example .env
-   ```
+4. Start the development server
 
-5. Start the development server
    ```bash
    npm start
-   # or
-   yarn start
    ```
 
-6. Open [http://localhost:3000](http://localhost:3000) to view it in the browser
+5. Open [http://localhost:3000](http://localhost:3000) to view it in the browser
 
 ## Usage
 
@@ -89,8 +84,7 @@ Create a production build:
 
 ```bash
 npm run build
-# or
-yarn build
+
 ```
 
 ## Available Scripts
@@ -107,53 +101,18 @@ In the project directory, you can run:
 ```
 src/
 ├── components/          # Reusable UI components
-│   ├── Header/
+│   ├── Categorys/
 │   ├── Footer/
-│   └── Button/
-├── pages/              # Page components
-│   ├── Home/
-│   ├── About/
-│   └── Contact/
-├── hooks/              # Custom React hooks
-├── utils/              # Utility functions
-├── styles/             # Global styles and themes
+│   ├── Products/
+│   └── Header/
+├── pages/
+|
 ├── assets/             # Images, fonts, etc.
 ├── App.js              # Main App component
 └── index.js            # Entry point
 ```
 
-### Code Examples
-
-```jsx
-// Example component usage
-import { Button } from './components/Button';
-
-function App() {
-  const handleClick = () => {
-    console.log('Button clicked!');
-  };
-
-  return (
-    <div className="App">
-      <Button onClick={handleClick}>
-        Click me!
-      </Button>
-    </div>
-  );
-}
-```
-
 ## Configuration
-
-### Environment Variables
-
-Create a `.env` file in the root directory:
-
-```env
-REACT_APP_API_URL=https://api.example.com
-REACT_APP_API_KEY=your_api_key_here
-REACT_APP_ENVIRONMENT=development
-```
 
 ### Package.json Scripts
 
@@ -171,15 +130,6 @@ Custom scripts you can add to your `package.json`:
   }
 }
 ```
-
-## API Reference (if applicable)
-
-### Endpoints
-
-- `GET /api/users` - Get all users
-- `POST /api/users` - Create a new user
-- `PUT /api/users/:id` - Update a user
-- `DELETE /api/users/:id` - Delete a user
 
 ## Contributing
 
@@ -206,32 +156,9 @@ npm test -- --coverage
 - [React](https://reactjs.org/) - The web framework used
 - [Create React App](https://create-react-app.dev/) - React toolchain
 - [React Router](https://reactrouter.com/) - For routing (if used)
-- [Styled Components](https://styled-components.com/) - For styling (if used)
-- Add other major dependencies here
-
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-
-## Known Issues
-
-- Issue 1: Description and potential workaround
-- Issue 2: Description and potential workaround
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-Your Name - your.email@example.com
+Riad osman - riyados973@gmail.com
 
-Project Link: [https://github.com/yourusername/your-project-name](https://github.com/yourusername/your-project-name)
-
-## Acknowledgments
-
-- Thanks to [Name](link) for inspiration
-- Thanks to [Library](link) for the awesome tool
-- Hat tip to anyone whose code was used
+Project Link: [https://github.com/riadosman/yildiz_matbaa](https://github.com/riadosman/yildiz_matbaa)
