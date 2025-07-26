@@ -1,6 +1,7 @@
 # Project Name
 
-Brief description of what your React application does and its main purpose.
+This project was a proposal for the company Yıldız matbaa to help increase its sales better showcase its business on Google 
+and enable customers to order its products through the website
 
 ![App Screenshot](screenshots/main-screenshot.png)
 
@@ -14,7 +15,6 @@ Brief description of what your React application does and its main purpose.
 - [Project Structure](#project-structure)
 - [Configuration](#configuration)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Screenshots
