@@ -1,4 +1,4 @@
-# Project Name
+# Yıldız Matbaa
 
 This project was a proposal for the company Yıldız matbaa to help increase its sales better showcase its business on Google 
 and enable customers to order its products through the website
